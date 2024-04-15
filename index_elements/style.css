@@ -1,0 +1,37 @@
+body {
+    background-color: #221815;
+    font-family: 'ITC';
+    font-size: 20px;
+    animation: fadeIn 10s forwards;
+}
+
+img {
+    width: 190px;
+    height: 250px;
+}
+
+h1, a, a:link, li{
+    color: #FBC649;
+}
+
+@font-face {
+    font-family: 'ITC';
+    src: url("ITC Machine Medium.otf");
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
