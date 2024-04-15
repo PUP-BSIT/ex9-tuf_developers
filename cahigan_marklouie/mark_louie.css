@@ -1,0 +1,32 @@
+#content_1{
+  background-color: rgb(175, 47, 8);
+  color: whitesmoke;
+}
+
+#section_1{
+  background-image: url('./images/grass.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+
+#section_2{
+  border :5 px;
+  border-style: solid;
+}
+
+#section_3{
+  background-color: rgb(89, 163, 29);
+}
+
+#custom_one{
+  height: 200px;
+  width: 200px;
+}
+
+body{
+  background-color: rgb(247, 243, 9);
+}
+
+h2{
+  font-style: italic;
+}
