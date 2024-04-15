@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("background_4.gif");
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.7);
+    background-blend-mode: overlay;
+    background-size: cover;
+    color: white;
+}
+
+div {
+    padding: 2rem;
+}
+
+img {
+    width: 200px;
+    height: 160px;
+}
+
+h1 {
+    background-image: url("button.png");
+    text-align: center;
+    line-height: 90px;
+    background-size: cover;
+    color: #5f585f;
+    padding: 1vw;
+}
+
+h2 {
+    font-style: italic;
+    color: #f8c1d8;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a:link {
+    color: #e7ddf3
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    border-radius: 25px;
+}
+
+.interests {
+    background-color: rgba(6, 6, 6, 0.5);
+    margin: 1rem;
+    width: 250px;
+    margin-bottom: 1rem;
+    border-radius: 25px;
+}
+
+.my-works {
+    background-color: rgba(6, 6, 6, 0.5);
+    border: 2px solid rgb(95, 95, 95);
+    margin-bottom: 1rem;
+    width: 250px;
+    border-radius: 25px;
+}
+
+.testimonials {
+    background-color: rgba(6, 6, 6, 0.5);
+    width: 250px;
+    margin-bottom: 1rem;
+    border-radius: 25px;
+}
+
+.gallery{
+    background-color: rgba(6, 6, 6, 0.5);
+    margin-bottom: 1rem;
+    border-radius: 25px;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
