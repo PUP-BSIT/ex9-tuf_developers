@@ -105,3 +105,56 @@ ol{
 .gallery-images img:hover{
     transform: scale(1.1);
 }
+
+/*forms css*/
+.title{
+    text-align: center;
+}
+.form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+    
+  .container {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .upper {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .upper > div:nth-child(1),
+  .upper > div:nth-child(2) {
+    grid-column: span 1;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input,textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .submit-container {
+    margin-top: 10px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .upper {
+      grid-template-columns: 1fr;
+    }
+  }
