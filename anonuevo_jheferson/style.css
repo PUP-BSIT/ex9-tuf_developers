@@ -12,14 +12,13 @@ body {
 }
 
 .header {
-  background-color: #007bff;
   color: #fff;
   padding: 20px;
   text-align: center;
 }
 
 .header h1 {
-  background-image: url("bg.jpg");
+  background-image: url("./images/header.jpg");
   background-size: cover;
   background-position: center;
   padding: 20px;
@@ -103,6 +102,10 @@ ol {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
+}
+
+.form h2{
+  text-align: center;
 }
 
 .container {
