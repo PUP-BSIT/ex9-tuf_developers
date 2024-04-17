@@ -71,6 +71,17 @@ body {
   padding: 20px;
 }
   
+.form-container {
+  display: grid;
+  gap: 10px;
+}
+  
+.upper-cotainer {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+}
+  
 .upper>div:nth-child(1),
 .upper>div:nth-child(2) {
   grid-column: span 1;
