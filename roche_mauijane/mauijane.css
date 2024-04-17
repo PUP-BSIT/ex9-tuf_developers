@@ -60,10 +60,10 @@ body {
     transform: scale(1.1); 
 }
 
-/*form css*/
-.title{
+.title {
     text-align: center;
 }
+
 .form {
     max-width: 600px;
     margin: 0 auto;
