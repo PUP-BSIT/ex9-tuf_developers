@@ -101,6 +101,10 @@ textarea {
   color: #ffffff;
 }
 
+.contact-container input {
+  width: 110px;
+}
+
 .submit-container input {
   width: 100%;
   padding: 5px;
@@ -118,6 +122,10 @@ textarea {
   justify-content: space-between;
 }
 
+.send-me-container input {
+  width: auto;
+}
+
 .contact-upper,
 .message-container,
 .send-me-container,
@@ -125,7 +133,14 @@ textarea {
   margin-bottom: 1rem;
 }
 
-@media (max-width: 550px) {
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+@media (max-width: 425px) {
   .contact-upper {
     display: flex;
     flex-direction: column;
