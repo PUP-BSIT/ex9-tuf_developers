@@ -1,24 +1,24 @@
-#content_1{
+#main_page{
   background-color: rgb(175, 47, 8);
   color: whitesmoke;
 }
 
-#section_1{
+#title_container{
   background-image: url('./images/grass.jpg');
   background-repeat: no-repeat;
   background-size: cover;  
 }
 
-#section_2{
+#works_container{
   border :5 px;
   border-style: solid;
 }
 
-#section_3{
+#gallery_container{
   background-color: rgb(89, 163, 29);
 }
 
-#custom_one{
+#resize_img{
   height: 200px;
   width: 200px;
 }
