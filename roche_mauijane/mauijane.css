@@ -13,7 +13,7 @@ body {
     text-shadow: 1px 1px 2px #fff, 0 0 5px #fff;
 }
 
-.container {
+.center-container {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -73,7 +73,7 @@ body {
   
 .container-2 {
   display: grid;
-   gap: 10px;
+  gap: 10px;
 }
   
 .upper {
