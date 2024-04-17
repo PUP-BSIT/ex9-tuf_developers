@@ -41,7 +41,7 @@ h2 {
 }
 
 a:link {
-    color: #e7ddf3;
+    color: #004217;
   }
 
 img {
@@ -55,7 +55,7 @@ img {
 } 
 
 .contact-me {
-    max-width: 600px;
+    max-width: 50%;
     margin: 0 auto;
     padding: 20px;
   }
@@ -106,7 +106,18 @@ img {
     border-radius: 4px;
     cursor: pointer;
 }
-
+input[type=submit] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+li {
+    align-items: normal;
+}
 @media screen and (max-width: 600px) {
     .container {
       grid-template-columns: 1fr;
@@ -123,4 +134,10 @@ img {
         margin-right: 10px;
         margin-left: 10px;
       } 
+}
+
+@media (max-width: 374) {
+    .gallery {
+      display: flex;  
+    }
 }
