@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
-
     <head>
         <link href="mark_louie.css" rel="stylesheet"/>
-        <title>cahigan mark louie Page</title>   
+        <title>cahigan mark louie Page</title>  
+        <meta name="viewport" 
+        content="width=device-width, initial-scale=1.0">
     </head>
 
     <body>
@@ -45,7 +46,7 @@
             </ol>
         </div>
 
-        <div>
+        <div class ="testimonial-container">
             <h2>Testimonials</h2>
             <p>It looks nice with the pictures! -Jhef</p>        
             <p>It looks so good, I could already feel 
@@ -56,24 +57,26 @@
         </div>
 
         <div id="gallery_container">
-            <h2>Gallery</h2>
-            <img id="resize_img" src="./images/1_MC.png">
-            <img src="./images/2_MZ.png">
-            <img src="./images/3_MZ.png">
-            <img src="./images/4_LG.png">
-            <img src="./images/5_JW.png">
-            <img src="./images/11_JW.png">
+            <h2>Gallery</h2> 
+            <div class="gallery-images">
+                <img id="resize_img" src="./images/1_MC.png">
+                <img src="./images/2_MZ.png">
+                <img src="./images/3_MZ.png">
+                <img src="./images/4_LG.png">
+                <img src="./images/5_JW.png">
+                <img src="./images/11_JW.png">
+            </div>
         </div>
         
         <h2>Contact Me</h2>
         <div>
             <form class="top">
                 <div class="display-device">
-                <div>
-                    <label for="email">Email </label>
-                    <input type="email" id="email" 
-                        name="email" />
-                </div>
+                    <div>
+                        <label for="email">Email </label>
+                        <input type="email" id="email" 
+                            name="email" />
+                    </div>
 
                 <div>
                     <label for="name">Full Name </label>
@@ -95,7 +98,7 @@
 
                 </div>
 
-                <div>
+                <div class="copy-item">
                     <label for="copy">Send me a copy </label>
                     <input type="checkbox" id="copy" 
                         name="copy" />

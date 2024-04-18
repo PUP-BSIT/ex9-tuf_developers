@@ -7,6 +7,8 @@
   background-image: url('./images/grass.jpg');
   background-repeat: no-repeat;
   background-size: cover;  
+  display: flex;
+  justify-content: center;
 }
 
 #works_container {
@@ -16,6 +18,7 @@
 
 #gallery_container {
   background-color: rgb(89, 163, 29);
+ 
 }
 
 #resize_img {
@@ -28,5 +31,46 @@ body {
 }
 
 h2 {
+  text-align: center;
   font-style: italic;
+}
+
+.gallery-images {
+  display:flex;
+  flex-direction: row;
+  overflow: auto;
+}
+
+.display-device {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
+.display-device div, 
+.message-item, 
+.copy-item,
+.submit-item {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.message-item {
+  width: 50%; 
+  height: 20%;
+  margin: auto;
+  flex-direction: column; 
+}
+
+.top {
+  height: 350px;
+}
+
+@media (max-width: 426px) {
+  .display-device {
+    display: flex;  
+    flex-direction: column;
+  }
 }
