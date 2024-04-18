@@ -1,4 +1,4 @@
-#the_niyog{
+#the_niyog {
     background-color: black;
     background-size: cover;
     font-family: 'Times New Roman';
@@ -9,14 +9,14 @@
     margin: -10px;
 }
 
-#content_niyog{
+#content_niyog {
     margin:20px;
     display: flex;
     justify-content: space-between;   
     height: 450px;
 }
 
-#bottom_niyog{
+#bottom_niyog {
     background-color: black;
     text-align:center;
     color: white;

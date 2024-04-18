@@ -1,0 +1,85 @@
+.main-page {
+  background-color: rgb(175, 47, 8);
+  color: whitesmoke;
+}
+
+.title-container {
+  background-image: url('../images/grass.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;  
+  display: flex;
+  justify-content: center;
+}
+
+.works-container {
+  border : 5px;
+  border-style: solid;
+}
+
+.gallery-container {
+  background-color:  #208d3f;
+}
+
+.resize-img {
+  height: 200px;
+  width: 200px;
+}
+
+body {
+  background-color: #dfab00;
+}
+
+h2 {
+  text-align: center;
+  font-style: italic;
+}
+
+.gallery-images {
+  display:flex;
+  flex-direction: row;
+  overflow: auto;
+}
+
+.display-device {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
+.display-device div, 
+.message-item, 
+.copy-item,
+.submit-item {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.message-item {
+  width: 50%; 
+  height: 20%;
+  margin: auto;
+  flex-direction: column; 
+}
+
+.top {
+  height: 350px;
+}
+
+@media (max-width: 426px) {
+  .display-device {
+    display: flex;  
+    flex-direction: column;
+  }
+
+  .testimonial-container {
+    display: flex;  
+    flex-direction: column;
+  }
+  
+  .works-container > ol {
+    display: flex;
+    justify-content: space-between;
+  }
+}
