@@ -7,10 +7,10 @@
   </head>
   <body>
     <div class="header">
-      <h1>Anonuevo Jheferson</h1>
+      <h1>Añonuevo Jheferson</h1>
     </div>
 
-    <div class="container my-hobbies">
+    <div class="interests-hobbies">
       <h2>My interests and hobbies</h2>
       <ul>
         <li>Sports Cars</li>
@@ -21,7 +21,7 @@
       </ul>
     </div>
 
-    <div id="border" class="container my-works">
+    <div class="my-works">
       <h2>My works</h2>
       <ol>
         <li>
@@ -50,57 +50,61 @@
       <p>I love your work! -mau</p>
     </div>
 
-    <div id="gallery" class="container">
+    <div class="gallery">
       <h2>Gallery</h2>
-      <div class="gallery-images">
-        <img src="./images/picture_1.jpg" alt="Picture of a Mountain Bike" />
-        <img src="./images/picture_2.jpg" alt="Picture of a Car" />
-        <img src="./images/picture_3.jpg" alt="Picture of a motorcycle" />
-        <img src="./images/picture_4.jpg" alt="Picture of a laptop" />
-        <img src="./images/picture_5.jpg" alt="Picture of a photographer" />
-        <img src="./images/picture_6.jpg" alt="Picture of a guitar" />
-      </div>
+      <img src="./images/picture_1.jpg" alt="Picture of a Mountain Bike" />
+      <img src="./images/picture_2.jpg" alt="Picture of a Car" />
+      <img src="./images/picture_3.jpg" alt="Picture of a motorcycle" />
+      <img src="./images/picture_4.jpg" alt="Picture of a laptop" />
+      <img src="./images/picture_5.jpg" alt="Picture of a photographer" />
+      <img src="./images/picture_6.jpg" alt="Picture of a guitar" />
     </div>
 
-    <div class="">
-      <h2>Contact</h2>
+    <div class="title">
+      <h2>Contact Me</h2>
     </div>
-    <div class="">
+    <div class="form-container">
       <form>
-        <div class="">
+        <div class="form-row">
           <div>
-            <label class="" for="email">Email</label>
-            <input class="" type="email" name="email" id="email" />
+            <label class="form-label" for="email">Email</label>
+            <input class="form-input" type="email" name="email" id="email" />
           </div>
 
           <div>
-            <label class="" for="fullname">Fullname</label>
-            <input class="" type="text" name="fullname" id="fullname" />
+            <label class="form-label" for="fullname">Fullname</label>
+            <input
+              class="form-input"
+              type="text"
+              name="fullname"
+              id="fullname"
+            />
           </div>
 
           <div>
-            <label class="" for="age">Age</label>
-            <input class="" type="number" name="age" id="age" />
+            <label class="form-label" for="age">Age</label>
+            <input class="form-input" type="number" name="age" id="age" />
           </div>
 
           <div>
-            <label class="" for="subject">Subject</label>
-            <input class="" type="text" name="subject" id="subject" />
+            <label class="form-label" for="subject">Subject</label>
+            <input class="form-input" type="text" name="subject" 
+            id="subject" />
           </div>
         </div>
 
-        <div class="">
-          <label class="" for="message">Message</label>
-          <textarea class="" name="message" cols="30" rows="10">
+        <div class="message-container">
+          <label class="form-label" for="message">Message</label>
+          <textarea class="form-text-area" name="message" cols="30" rows="10">
           </textarea>
         </div>
 
-        <div class="">
-          <label class="" for="sendme">Send me a copy</label>
+        <div class="checkbox-wrapper">
+          <label class="checkbox-label" for="sendme">Send me a copy</label>
           <input type="checkbox" name="sendme" id="sendme" />
         </div>
 
-        <div class="">
+        <div class="form-submit">
           <input type="submit" />
         </div>
       </form>

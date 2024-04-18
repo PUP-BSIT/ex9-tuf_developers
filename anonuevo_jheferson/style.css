@@ -1,39 +1,22 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body {
+  font-family: "Gill Sans", "sans-serif";
+  background-color: #f9f9f9;
 }
 
-body {
-  font-family:Verdana, sans-serif;
-  line-height: 1.6;
-  background-color: #f9f9f9;
-  color: #333;
+div {
+  padding: 20px;
+  margin: 20px auto;
 }
 
 .header {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 800px;
+  background-color: #007bff;
   color: #fff;
   padding: 20px;
-  text-align: center;
-}
-
-.header h1 {
-  background-image: url("./images/header.jpg");
-  background-size: cover;
-  background-position: center;
-  padding: 20px;
-  font-size: 36px;
   text-transform: uppercase;
-  font-weight: bold;
-}
-
-.container {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
@@ -43,111 +26,169 @@ h2 {
   text-transform: uppercase;
 }
 
-ul,
-ol {
-  margin-left: 20px;
-}
-
-.testimonials {
-  background-color: #f9f9f9;
-  padding: 20px;
+.interests-hobbies {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
+  max-width: 800px;
 }
 
 .my-works {
   background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 800px;
   border: 2px solid #007bff;
+}
+
+li {
+  width: fit-content;
+  margin: auto;
+}
+
+.testimonials {
+  background-color: #fff;
   border-radius: 8px;
-  padding: 20px;
-  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 800px;
 }
 
-.my-works ol {
-  list-style-type: none;
-}
-
-.my-works ol li {
-  margin-bottom: 10px;
-  counter-increment: my-counter;
-}
-
-.my-works ol li::before {
-  content: counter(my-counter);
-  margin-right: 5px;
-  font-weight: bold;
-}
-
-.gallery-images {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 10px;
-  justify-items: center;
-}
-
-.gallery-images img {
-  max-width: 100%;
-  height: auto;
+.gallery {
+  background-color: #fff;
   border-radius: 8px;
-  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 800px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-.gallery-images img:hover {
+img {
+  width: 200px;
+  height: 160px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+img:hover {
   transform: scale(1.1);
 }
 
 .title {
   text-align: center;
 }
-.form {
+
+.form-container {
+  border: solid #007bff;
+  border-radius: 8px;
+  background-color: #fff;
   max-width: 600px;
   margin: 0 auto;
-  padding: 20px;
-}
-
-.form h2{
-  text-align: center;
-}
-
-.container {
   display: grid;
   gap: 10px;
 }
 
-.upper {
+.form-row {
   display: grid;
   gap: 10px;
-  grid-template-columns: repeat(2, 1fr);
 }
 
-.upper > div:nth-child(1),
-.upper > div:nth-child(2) {
-  grid-column: span 1;
+.email {
+  grid-area: email;
 }
 
-label {
+.fullname {
+  grid-area: fullname;
+}
+
+.age {
+  grid-area: age;
+}
+
+.subject {
+  grid-area: subject;
+}
+
+.sendme {
+  grid-area: sendme;
+}
+
+.message {
+  grid-area: message;
+}
+
+.submit {
+  grid-area: submit;
+}
+
+.form-label {
   font-weight: bold;
 }
 
-input,
-textarea {
+.form-input,
+.form-text-area {
   width: 100%;
-  padding: 8px;
+  padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
 }
 
-.checkbox-container {
+.checkbox-wrapper {
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 
-.submit-container {
-  margin-top: 10px;
+.checkbox-wrapper input[type="checkbox"] {
+  margin-right: 5px;
+  margin-left: 10px;
 }
 
-@media screen and (max-width: 600px) {
-  .upper {
-    grid-template-columns: 1fr;
+.checkbox-label {
+  font-weight: normal;
+}
+
+.form-submit {
+  margin-top: 15px;
+}
+
+.form-submit input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.form-submit input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 425px) {
+  .form-row {
+    grid-template-areas:
+      "email"
+      "fullname"
+      "age"
+      "subject"
+      "sendme"
+      "message"
+      "submit";
+  }
+}
+
+@media (min-width: 426px) {
+  .form-row {
+    grid-template-areas:
+      "email fullname"
+      "age subject"
+      "sendme sendme"
+      "message message"
+      "submit submit";
   }
 }
