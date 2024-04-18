@@ -1,37 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    background-color: #221815;
-    font-family: 'ITC';
-    font-size: 20px;
-    animation: fadeIn 10s forwards;
+  background-color: #221815;
+  font-family: "ITC";
+  font-size: 20px;
+  animation: fadeIn 10s forwards;
 }
 
 img {
-    width: 190px;
-    height: 250px;
+  width: 15rem;
+  height: 20rem;
 }
 
-h1, a, a:link, li{
-    color: #FBC649;
+h1 {
+  color: #fbc649;
+  font-size: 5rem;
 }
 
-@font-face {
-    font-family: 'ITC';
-    src: url("ITC Machine Medium.otf");
+a,
+li {
+  color: #fbc649;
+  font-size: 2rem;
 }
 
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
 }
