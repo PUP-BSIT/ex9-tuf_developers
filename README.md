@@ -7,10 +7,10 @@
 
 ---
 
-### Anonuevo Jheferson Website [![Jhef's Website](https://img.shields.io/badge/Netlify-Jheferson-blue?style=for-the-badge&logo=netlify)](https://jhef-website.netlify.app/)
+### Anonuevo Jheferson Website [![Jhef's Website](https://img.shields.io/badge/Netlify-Jheferson-blue?style=for-the-badge&logo=netlify)](https://anonuevo-jheferson.netlify.app)
 
 
-### Maui Jane Roche Website [![Maui's Website](https://img.shields.io/badge/Netlify-Maui-pink?style=for-the-badge&logo=netlify)](https://mauiwebsite.netlify.app)
+### Maui Jane Roche Website [![Maui's Website](https://img.shields.io/badge/Netlify-Maui-pink?style=for-the-badge&logo=netlify)](https://roche-mauijane.netlify.app)
 
 
 ### Von Ryan Nogadas Website [![Von's Website](https://img.shields.io/badge/Netlify-Von-red?style=for-the-badge&logo=netlify)](https://nogadas-vonryan.netlify.app/)
