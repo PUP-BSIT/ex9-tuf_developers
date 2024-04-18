@@ -1,6 +1,5 @@
 <div align="center">
-
-<img width=200px height=250px src="https://github.com/PUP-BSIT/ex9-tuf_developers/blob/efc1a7e97c441eae6ed1a0c02ac5f2c97ba95ace/index_elements/TUFLOGO.png" />
+    <img width=200px height=250px src="https://github.com/PUP-BSIT/ex9-tuf_developers/blob/efc1a7e97c441eae6ed1a0c02ac5f2c97ba95ace/index_elements/TUFLOGO.png" />
 
 # Tuf Developers
 [![TUF Developers Website](https://img.shields.io/badge/Netlify-TUF%20Developers-FBC649?style=for-the-badge&logo=netlify&labelColor=221815)](https://tufdevelopers.netlify.app/)
