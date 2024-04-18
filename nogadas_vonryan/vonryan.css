@@ -30,7 +30,7 @@ body {
 }
 
 .full-name,
-.my-works a {
+a {
   color: #fec997;
 }
 
@@ -136,14 +136,24 @@ textarea {
   height: 100%;
 }
 
+@media (max-width: 250px) {
+  .gallery-images img,
+  .contact-me input,
+  textarea {
+    width: 100%;
+    height: 100%;
+  }
+
+  *, p,
+  .testimonials p {
+    font-size: 10px;
+  }
+}
+
 @media (max-width: 425px) {
   .contact-upper {
     display: flex;
     flex-direction: column;
-  }
-
-  .contact-me input {
-    width: auto;
   }
 }
 
